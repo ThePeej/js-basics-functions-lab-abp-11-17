@@ -31,6 +31,6 @@ function calculatesFarePrice(start, end) {
       fare = 25
       return fare;
   } else {
-      return 'cannot travel that far'
+      return fare
   }
 }
