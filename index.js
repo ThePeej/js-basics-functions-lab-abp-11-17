@@ -7,6 +7,5 @@ function distanceFromHqInBlocks(location) {
 }
 
 function distanceFromHqInFeet(location) {
-  let distance = Math.abs(location-HQ);
-  return distance*264
+  return distanceFromHqInBlocks() * 264
 }
