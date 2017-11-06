@@ -1,6 +1,5 @@
 // Code your solution in this file!
 const HQ = 42;
-let distance = 0
 
 function distanceFromHqInBlocks(location) {
   let distance = Math.abs(location-HQ);
